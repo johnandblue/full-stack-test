@@ -1,0 +1,29 @@
+{
+  "name": "full-stack-test",
+  "version": "1.0.0",
+  "description": "Creating a server-client app from scratch",
+  "main": "index.js",
+  "dependencies": {
+    "koa": "^1.2.4",
+    "koa-body": "^1.6.0",
+    "koa-bodyparser": "^2.3.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^4.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnandblue/full-stack-test.git"
+  },
+  "author": "JC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnandblue/full-stack-test/issues"
+  },
+  "homepage": "https://github.com/johnandblue/full-stack-test#readme"
+}
