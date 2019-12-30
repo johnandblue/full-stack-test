@@ -1,17 +1,20 @@
-const Events = require('../models/events.js')
+const Event = require('../models/events.js')
 
 const path = require('path');
 const eventCtrl = {};
 
-// eventCtrl.postEvent = function* () {
-//   Events.postMessage(this.request.body);
-//   this.status = 201;
-// };
+exports.postEvent = function* () {
+  Events.postMessage(this.request.body);
+  this.status = 201;
+};
 
-exports.getEvents = function () {
+
+
+exports.getEvents = function* () {
   console.log('in eventCtrl.getEvents');
-  // this.body = yield Events.find();
+  this.body = yield Events.find();
 }
+
 
 // eventCtrl.deleteEvent = function* () {
 //   yield Events.deleteAll();
